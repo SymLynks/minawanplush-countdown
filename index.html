@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Minawan Plushies Countdown</title>
+    <link href="https://fonts.cdnfonts.com/css/vividly" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="title">Minawan Plushies shipping in</header>
+
+        <main class="countdown" id="countdown" aria-live="polite">
+            <div class="time">
+                <span class="value" id="days">0</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="time">
+                <span class="value" id="hours">0</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="time">
+                <span class="value" id="minutes">0</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="time">
+                <span class="value" id="seconds">0</span>
+                <span class="label">Seconds</span>
+            </div>
+        </main>
+
+        <div class="images" id="images" onclick="new Audio('assets/SqueakyToy.wav').play();">
+            <img src="assets/minawan_b.webp" alt="blue minnawan plushie" id="img-left" class="enter-from-left">
+            <img src="assets/minawan_p.webp" alt="purple minawan plushie" id="img-right" class="enter-from-right">
+        </div>
+        <footer class="footer">
+            <p>Visit Cerber on Twitch: <a href="https://www.twitch.tv/cerbervt" target="_blank">CerberVT</a></p>
+            <p>Made for Minawan with love, by AkiWan</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
